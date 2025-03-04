@@ -2,21 +2,8 @@
 
 This repository is where worked through the exercises for Session 8 of ADGS1.
 
-## Structure
 
-The structure of the template follows the structure of an R package without
-actually being one. There are several reasons for this.
 
-- Familiarizes you with an R package structure
-  - allowing for an optional switch to an R package
-- Avoids top level aggregation of data, code and reporting files
-- Splits the dynamic reporting from academic writing (`vignettes` vs. `manuscript`)
-- Splits pre-processing of data from working / included data (`data-raw` vs. `data`)
-- Splits R code from other scripts (bash / python in `src`)
-- Splits R functions from R analysis scripts (`R` vs `analysis`)
-
-Below you find a comprehensive list of what goes where an why, as well as some
-best practices on how to structure further data within these folders.
 
 ### The R folder
 
